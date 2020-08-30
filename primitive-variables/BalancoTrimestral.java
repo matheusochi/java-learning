@@ -4,7 +4,10 @@ class BalancoTrimestral {
         int gastosFevereiro = 23000;
         int gastosMarco = 17000;
         int	gastosTrimestre	= gastosJaneiro	+ gastosFevereiro +	gastosMarco;
+        int mediaMensal = (gastosJaneiro + gastosFevereiro + gastosMarco) / 3;
+        String outMediaMensal = "Média mensal = " + mediaMensal;
 
         System.out.println(gastosTrimestre);
+        System.out.println(outMediaMensal);
     }
 }
